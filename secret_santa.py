@@ -89,7 +89,7 @@ def emailOut(namesShuffled, emailShuffled, debug):
     server.login(EMAIL,PWORD)
     
     #Set email subject
-    SUBJECT = "Sesh Dev 1 Secret santa draw! You've got a name!"
+    SUBJECT = "Secret Santa draw!"
     
     #Because somehow this became a tuple
     namesShuffled  = list(namesShuffled)
